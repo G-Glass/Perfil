@@ -1,0 +1,172 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(194, 185, 174);
+    font-size: 1.07em;
+}
+div.container {
+    padding: 5px;
+    display: grid;
+    gap: 5px;
+    grid-template: auto 60px / 35% 1fr;
+}
+div.person {
+    width: 100%;
+    background-color: wheat;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+div.imagem {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+div.apresentacao {
+    background-color: rgba(255, 255, 255, 0.322);
+    padding: 10px;
+    border-radius: 10px;
+}
+div.apresentacao p {
+    padding: 5px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.contato {
+    background-color: rgba(255, 255, 255, 0.397);
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+div.contato p{
+    padding: 10px;
+    margin: 7px auto;
+}
+div.contato p a {
+    text-decoration: none;
+}
+#parte {
+    background-color: white;
+    border-radius: 10px;
+}
+#iconh4 {
+    color:blue;
+}
+nav {
+    width: 100%;
+    text-align: center;
+}
+nav a {
+    margin-right: 35px;
+    text-decoration: none;    
+    color: black;
+    text-align: center;
+    position: relative;
+    left: 4%;
+}
+div.imagem {
+    border-radius: 10px; 
+    /*background-image: url("images.jpeg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;*/
+}
+div.im {
+    background-image:
+        linear-gradient(rgb(219, 18, 18), rgb(50, 146, 31), white), /* cor do centro */
+        linear-gradient(135deg, #0074d9, #00c3ff); 
+    border: auto solid ; /* borda branca */
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;}
+div.imagem img {
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: cover;
+    display: block;
+}
+div .person, .principal, .rodape {
+    padding: 5px;
+    border-radius: 10px;
+}
+div.principal {
+    background-color: rgba(226, 235, 235, 0.829);
+    grid-area: 1/2/2/3;
+}
+div.rodape {
+    background-color: lab(100% 0.01 -0.01);
+    grid-area: 2/1/3/3;
+}
+footer {
+    text-align: center;
+}
+div.person h4 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+}
+section h2, h3, h4, p {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+section div {
+    background-color: #05c5ff98;
+    font-weight: bold;
+    border-radius: 10px;
+}
+section div.cv {
+    background-color: rgba(247, 243, 238, 0.445);
+    font-weight: normal;
+}
+aside {
+    display: none;
+}
+p.pp {
+    text-align: left;
+    line-height: 1.5em;
+}
+div.escala {
+    background-color: white;
+    padding: 5px;
+    display: grid;
+    gap: 7px;
+    grid-template: 70px 70px 70px/ auto auto;
+    place-content: space-around;
+}
+div.f-e {
+    grid-area: 3/1/4/3;
+}
+p.itens {
+    background-color: gold;
+    border-radius: 10px;
+    margin: auto 20px;
+}
+
+
+/*Dispositivos moveis*/
+/*@media screen and (max-width: 500px) {
+    div.container {
+        display: grid;
+        grid-template: auto auto auto 60px / auto;
+    }
+    div.person {
+        grid-row: 1 / 2;
+        grid-column: 1 / 1;
+    }
+}*/
