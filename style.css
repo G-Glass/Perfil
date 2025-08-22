@@ -7,6 +7,7 @@
 body {
     background-color: rgb(53, 47, 41);
     font-size: 1.07em;
+    height: 100%;
 }
 div.container {
     min-height: 100%;
