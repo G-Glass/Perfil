@@ -102,10 +102,10 @@
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-    max-width: 500px;
+    max-width: 300px;
     width: 90%;
         margin: 0 0 10px 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     border-radius: 10px;
     display: grid;
     grid-template: 1fr / repeat(4, 1fr);
@@ -113,11 +113,12 @@
     place-items: center;
     gap: 5px;
    }
-   img {
+   div.center  img {
     padding: 5px;
     border-radius: 5px;
     box-shadow: none;
     filter: none;
+    cursor: pointer;
    }
 
    

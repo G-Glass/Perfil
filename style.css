@@ -79,10 +79,10 @@ div.imagem {
     background-attachment: scroll;
     background-size: cover;*/
 }
-div.im {
-    background-image:
-        linear-gradient(rgb(219, 18, 18), rgb(50, 146, 31), white), /* cor do centro */
-        linear-gradient(135deg, #0074d9, #00c3ff); 
+div.content{
+    display: none;
+}
+div.person div.im {
     border: auto solid ; /* borda branca */
     padding: 4px;
     border-radius: 50%;
