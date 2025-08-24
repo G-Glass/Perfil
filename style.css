@@ -5,13 +5,12 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(53, 47, 41);
     font-size: 1.07em;
     height: 100vh;
 }
 div.container {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.466);
+    min-width: 100;
+    background-color: rgb(29, 26, 26);
     padding: 5px;
     display: grid;
     gap: 5px;
