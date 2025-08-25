@@ -87,10 +87,23 @@ div.brilho{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     gap: 5px;
+    display: none;
+}
+div.brilho div {
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+div.x {
+    overflow-x: auto;
 }
 div.brilho img {
+    width: 30px;
+    height: 30px;
+}
+div.brilho  {
     align-self: center;
     text-align: center;
 }
