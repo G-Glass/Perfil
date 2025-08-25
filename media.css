@@ -31,8 +31,6 @@
         display: none;
     }
     div.content {
-    border: 1px solid wheat;
-    background-color: rgba(245, 222, 179, 0.74);
         position: fixed;
         bottom: 0;
         left: 50%;
@@ -44,7 +42,6 @@
     border-radius: 10px;
     display: flex;
     flex-flow: column;
-    
     gap: 5px;
    }
    div.conteine {
@@ -105,12 +102,11 @@
     border-radius: 10px;
     display: flex;
     flex-flow: column;
-    
     gap: 5px;
    }
    div.conteine {
     display: grid;
-    grid-template: 1fr / repeat(4, 1fr);
+    grid-template: 1fr / repeat(3, 1fr);
     place-content: center;
     place-items: center;
     gap: 5px;
@@ -152,32 +148,6 @@
            color: white;
     
        }
-       div.brilho{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5px;
-    display: none;
-}
-div.brilho div {
-    background-color: white;
-    margin: 5px;
-    border-radius: 10px;
-}
-div.x {
-    overflow-x: auto;
-}
-div.brilho img {
-    width: 30px;
-    height: 30px;
-}
-div.brilho  {
-    align-self: center;
-    text-align: center;
-}
-}
-    
    img {
     /*background-color: black;*/
     padding: 5px;
@@ -185,6 +155,7 @@ div.brilho  {
     box-shadow: none;
     filter: none;
    }
+}
 @media screen and (max-width: 550px) {
     body {
         background-color: white;
@@ -248,7 +219,7 @@ div.brilho  {
 
    div.conteine {
     display: grid;
-    grid-template: 1fr / repeat(4, 1fr);
+    grid-template: 1fr / repeat(3, 1fr);
     place-content: center;
     place-items: center;
     gap: 5px;
@@ -299,28 +270,4 @@ div.brilho  {
            color: white;
     
        }
-       div.brilho{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5px;
-    display: none;
-}
-div.brilho div {
-    background-color: white;
-    margin: 5px;
-    border-radius: 10px;
-}
-div.x {
-    overflow-x: auto;
-}
-div.brilho img {
-    width: 30px;
-    height: 30px;
-}
-div.brilho  {
-    align-self: center;
-    text-align: center;
-}
-}
+    }
