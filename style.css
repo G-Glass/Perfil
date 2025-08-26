@@ -116,6 +116,9 @@ div.content {
     background-color: rgb(8, 8, 7);
     border-radius: 10px;
    }
+   div.pess  {
+    margin: 12px 5px auto;
+   }
    ol {
     width: 100%;
    }
@@ -126,7 +129,6 @@ div.content {
     border-radius: 10px;
    }
    li a {
-       color: black;
        text-decoration: none;
        font-weight: bold;
        padding: 10px;
@@ -148,7 +150,7 @@ div.content {
     cursor: pointer;
    }
    ul.dash, .pess, .brilho {
-    margin: 5px;
+    margin: 10px;
    }
    div.a {
     background-color: black;
