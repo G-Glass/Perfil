@@ -64,6 +64,10 @@
     background-color: rgb(247, 243, 243);
     border-radius: 10px;
    }
+   div.pess li ,.dash li,.a li {
+    padding: 10px 1px;
+    text-align: center;
+   }
    li a {
        color: black;
        text-decoration: none;
@@ -218,6 +222,10 @@
    div.pess,.dash  {
     margin: 12px 5px auto;
     color: black;
+   }
+   div.pess li ,.dash li,.a li {
+    padding: 10px 1px;
+    text-align: center;
    }
    /* Imagens no li         */
    li img {
