@@ -98,7 +98,6 @@ div.content {
     display: flex;
     flex-flow: column;
     gap: 5px;
-    overflow-y: auto;
    }
    /* Imagens no li         */
    li img {

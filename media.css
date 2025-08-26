@@ -67,6 +67,7 @@
    div.pess li ,.dash li,.a li {
     padding: 10px 1px;
     text-align: center;
+    color: black;
    }
    li a {
        color: black;
@@ -97,7 +98,7 @@
     
        }
        div.content {
-    border: 1px solid wheat;
+    border: none;
     background-color: rgba(245, 222, 179, 0.74);
         position: fixed;
         bottom: 0;
