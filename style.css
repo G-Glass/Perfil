@@ -116,8 +116,9 @@ div.content {
     background-color: rgb(8, 8, 7);
     border-radius: 10px;
    }
-   div.pess  {
+   div.pess,.dash  {
     margin: 12px 5px auto;
+    color: black;
    }
    ol {
     width: 100%;

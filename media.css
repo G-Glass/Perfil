@@ -70,6 +70,10 @@
        font-weight: bold;
        padding: 10px;
    }
+   div.pess,.dash  {
+    margin: 12px 5px auto;
+    color: black;
+   }
     
    div.center  img {
     padding: 5px;
@@ -210,6 +214,10 @@
     display: flex;
     flex-flow: column;
     gap: 5px;
+   }
+   div.pess,.dash  {
+    margin: 12px 5px auto;
+    color: black;
    }
    /* Imagens no li         */
    li img {
