@@ -30,7 +30,7 @@
     div.person > .contato {
         display: none;
     }
-    div.content {
+    /*div.content {
         position: fixed;
         bottom: 0;
         left: 50%;
@@ -159,11 +159,11 @@
        }
    img {
     /*background-color: black;*/
-    padding: 5px;
+    /*padding: 5px;
     border-radius: 5px;
     box-shadow: none;
     filter: none;
-   }
+   }*/
 }
 @media screen and (max-width: 550px) {
     body {
@@ -204,7 +204,7 @@
         align-self: center;
         margin: 5px;
     }
-    div.content {
+    /*div.content {
     border: none;
     background-color: rgba(245, 222, 179, 0.74);
         position: fixed;
@@ -228,7 +228,7 @@
     padding: 10px 1px;
     text-align: center;
    }
-   /* Imagens no li         */
+   Imagens no li         
    li img {
     width: 30px;
     height: 30px;
@@ -285,6 +285,5 @@
     }
     div.a  a {
            color: white;
-    
-       }
-    }
+    }*/
+}
