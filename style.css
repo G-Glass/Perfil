@@ -159,3 +159,9 @@ p.itens {
     border-radius: 10px;
     margin: auto 20px;
 }
+
+.lista {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+}
