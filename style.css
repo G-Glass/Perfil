@@ -155,8 +155,9 @@ div.f-e {
     grid-area: 3/1/4/3;
 }
 p.itens {
-    background-color: gold;
-    border-radius: 10px;
+    background-color: #Daeaf7;
+    padding: 7px 2px;
+    border-radius: 7px;
     margin: auto 20px;
 }
 
