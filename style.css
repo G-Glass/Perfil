@@ -27,10 +27,10 @@ div.imagem {
     width: 100%;
 }
 div.apresentacao {
-    background-color: rgba(255, 255, 255, 0.322);
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    background-color: #faf8f6;
 }
 div.apresentacao p {
     padding: 5px;
@@ -154,7 +154,6 @@ div.escala {
     place-content: space-around;
 }
 .escala h4 {
-    background-color: #faf8f6;
     font-weight: bold;
 }
 .tools {
@@ -196,13 +195,18 @@ p.itens {
     height: 40px;
     border-radius: 5px;
 }
-.mysql {
-    height: 55px;
-    width: 55px;
+.database {
     border: 2px solid;
-    padding: 5px;
-    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mysql {
+    width: 40px;
+    height: 40px;
 }
 .tecno {
-    margin-top: 10px;
+    background-color: #faf8f6;
+    border-radius: 7px;
 }
