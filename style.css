@@ -30,6 +30,7 @@ div.apresentacao {
     background-color: rgba(255, 255, 255, 0.322);
     padding: 10px;
     border-radius: 10px;
+    margin-top: 10px;
 }
 div.apresentacao p {
     padding: 5px;
@@ -145,12 +146,22 @@ p.pp {
     line-height: 1.5em;
 }
 div.escala {
-    background-color: white;
+    margin-top: 10px;
+    background-color: #d0e6fd;
     padding: 5px;
     display: grid;
     gap: 7px;
-    grid-template: 70px 70px 70px/ auto auto;
     place-content: space-around;
+}
+.escala h4 {
+    background-color: #faf8f6;
+    font-weight: bold;
+}
+.tools {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
 }
 div.f-e {
     grid-area: 3/1/4/3;
@@ -179,4 +190,19 @@ p.itens {
 .debian {
     width: 35px;
     height: 35px;
+}
+.typescript {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+.mysql {
+    height: 55px;
+    width: 55px;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tecno {
+    margin-top: 10px;
 }
