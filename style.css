@@ -127,6 +127,7 @@ section h2, h3, h4, p {
     padding: 5px;
     margin: auto;
     text-align: center;
+    line-height: 1.5em;
 }
 section div {
     font-weight: bold;
