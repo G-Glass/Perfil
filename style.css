@@ -108,7 +108,7 @@ div .person, .principal, .rodape {
 }
 div.principal {
     grid-area: 3 / 1 / 4 / 2;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 div.person h4 {
@@ -158,9 +158,7 @@ div.escala {
     align-items: center;
     justify-content: space-around;
 }
-div.f-e {
-    grid-area: 3/1/4/3;
-}
+
 p.itens {
     background-color: #Daeaf7;
     padding: 7px 2px;
@@ -208,7 +206,7 @@ p.itens {
 }
 
 .linear {
-    margin-top: 1em;
+    margin: auto;
     grid-area: 2 / 1 / 3 / 2;
     width: 100%;
     display: flex;
