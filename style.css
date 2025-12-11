@@ -176,3 +176,7 @@ p.itens {
 .linux p {
     padding: 10px;
 }
+.debian {
+    width: 35px;
+    height: 35px;
+}
