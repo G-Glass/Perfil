@@ -50,6 +50,7 @@
     div.person {
         grid-row: 1 / 2;
         grid-column: 1;
+        overflow-y: auto;
     }
     
     div.principal {
@@ -96,6 +97,7 @@
         position: fixed;
         left: 0;
         width: 30%;
+        overflow-y: auto;
     }
     
     .linear {
