@@ -94,7 +94,8 @@ div.person div.im {
     justify-content: center;
     width: 80px;
     height: 80px;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 div.imagem img {
     width: 100%;
     border-radius: 50%;
